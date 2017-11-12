@@ -1,0 +1,27 @@
+/*event info - announcement*/
+#rcs-style-anchor-0{
+    background: rgba(10, 10, 10, 0.98);
+    background-image: url(https://i.imgur.com/cbCqZXM.png) !important;
+    background-position: 0 0 !important;
+    border-radius: 5px !important;
+    border: 1px solid #282c35 !important;
+    position: absolute;
+	
+   height: 499px !important;
+   width: 300px !important;
+   right: 355px !important;
+
+    top: 80px; 
+
+    z-index: 9;
+	
+    transition: all 0.5s ease;
+	cursor: pointer;
+}
+#rcs-style-anchor-0:active{
+    border: 1px solid #848a96 !important;
+}
+#rcs-style-anchor-0.toggled{
+    height: 30px !important;
+    width: 86px !important;
+}
