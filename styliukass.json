@@ -1,8 +1,8 @@
 {
    "room":"Gilze.lt",
-   "author":"Energy",
+   "author":"tit",
    "icon":"null",
-   "css":"https://raw.githubusercontent.com/Eimantux29/naujausias/master/TMnn.css",
+   "css":"https://rawgit.com/TitanMusicDev/TMCss/master/TM.json",
    "rules":{
       "allowAutorespond":true,
       "allowAutowoot":true,
