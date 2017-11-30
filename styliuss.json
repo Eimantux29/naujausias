@@ -2,7 +2,7 @@
    "room":"Gilze.lt",
    "author":"Energy",
    "icon":"https://i.imgur.com/ctfUWRt.png?1",
-   "css":"https://rawgit.com/TitanMusicDev/TMCss/master/TM.css",
+   "css":"https://raw.githubusercontent.com/Eimantux29/naujausias/master/TM.css",
    "rules":{
       "allowAutorespond":true,
       "allowAutowoot":true,
