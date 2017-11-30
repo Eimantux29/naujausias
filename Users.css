@@ -1,186 +1,393 @@
-/*
- ┌————————————————————┐
- │   Valuable users   │
- └————————————————————┘
- */
-
-/* CHUCK */
- [data-cid^="3469419-"] .badge-box .bdg {
-     border-radius: 6px !important;
-     background-image: url("http://i.imgur.com/eh2VJbv.gif") !important;
-     background-repeat: round !important;
-     background-size: 30px !important;
- }
- #user-rollover.id-3469419 .badge-box .bdg {
-     border-radius: 8px !important;
-     background-image: url("http://i.imgur.com/eh2VJbv.gif") !important;
-     background-repeat: round !important;
-     background-size: 30px !important;
- }
- /* CHUCK */
-/* Timowh */
- [data-cid^="5658276-"] .badge-box .bdg {
-     border-radius: 6px !important;
-     background-image: url("http://i.imgur.com/PiQqaS1.gif") !important;
-     background-repeat: round !important;
-     background-size: 30px !important;
- }
- #user-rollover.id-5658276 .badge-box .bdg {
-     border-radius: 8px !important;
-     background-image: url("http://i.imgur.com/PiQqaS1.gif") !important;
-     background-repeat: round !important;
-     background-size: 30px !important;
- }
- /* Timowh */
-/* Satskhi */
- [data-cid^="4405644-"] .badge-box .bdg {
-     border-radius: 6px !important;
-     background-image: url("http://i.imgur.com/lLqiUUB.gif") !important;
-     background-repeat: round !important;
-     background-size: 30px !important;
- }
- #user-rollover.id-4405644 .badge-box .bdg {
-     border-radius: 8px !important;
-     background-image: url("http://i.imgur.com/lLqiUUB.gif") !important;
-     background-repeat: round !important;
-     background-size: 30px !important;
- }
-/* Hover */
-[data-cid^="4405644-"] .badge-box .bdg:hover {
-	background-image: url("https://static-cdn.jtvnw.net/emoticons/v1/14023/3.0") !important;
- }
-#user-rollover.id-4405644 .badge-box .bdg:hover {
-	background-image: url("https://static-cdn.jtvnw.net/emoticons/v1/14023/3.0") !important;
- }
-/* Hover */
- /* Satskhi */
-
-/*old staff*/
-/* AÐđɪcŦĭìν3-Fя
- [data-cid^="3968700-"] .badge-box .bdg {
-     background-image: url("http://i.imgur.com/n7dlMKO.png") !important;
-     background-repeat: round !important;
-     background-size: 30px !important;
- }
- #user-rollover.id-3968700 .badge-box .bdg {
-     background-image: url("http://i.imgur.com/n7dlMKO.png") !important;
-     background-repeat: round !important;
-     background-size: 30px !important;
- }
-  AÐđɪcŦĭìν3-Fя */
-/* 4SharedPRO */
- [data-cid^="3424833-"] .badge-box .bdg {
-     background-image: url("https://i.imgur.com/AqlZ8lD.gif") !important;
-     background-repeat: round !important;
-     background-size: 30px !important;
- }
- #user-rollover.id-3424833 .badge-box .bdg {
-     border-radius: 5px !important;
-     background-image: url("https://i.imgur.com/AqlZ8lD.gif") !important;
-     background-repeat: round !important;
-     background-size: 30px !important;
- }
- /* 4SharedPRO */
-
-
-/*
- ┌————————————————————┐
- │     Theme devs     │
- └————————————————————┘
-Satskhi 4405644
-WiBla 4613422
-Wolf 4412452
-*/
-#user-lists .list .user.id-4405644 .name:after,
-#chat [data-cid^='4405644-'] .un:after,
-#user-lists .list .user.id-4613422 .name:after,
-#chat [data-cid^='4613422-'] .un:after,
-#user-lists .list .user.id-4412452 .name:after,
-#chat [data-cid^='4412452-'] .un:after {
-    content: 'CSS';
-    display: inline-block;
-    margin: 0 0 0 5px; 
-	padding: 0 3px;
-    color: #009A80;
-    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
-    border-radius: 4px;
+/* BOSS
+-------------------------------------------------------------------------------*/
+#user-lists .list .user.id-3896066 .name:after,
+#user-rollover.id-3896066 .meta .username:after,
+#chat [data-cid^='3896066-'] .un:after {
+    content: "BOSS";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(206,10,10,.5);
+    border-radius: 5px;
+    color: #ce0a0a;
     font-size: 10px;
 }
-#user-lists .list .user.id-4405644:hover .name:after,
-#chat [data-cid^='4405644-'] .un:hover:after,
-#user-lists .list .user.id-4613422:hover .name:after,
-#chat [data-cid^='4613422-'] .un:hover:after,
-#user-lists .list .user.id-4412452:hover .name:after,
-#chat [data-cid^='4412452-'] .un:hover:after {
-    background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
+
+/*===================================== Naudotojo valdyba */
+#user-rollover.id-3896066 .meta .thumb {
+    border-color: rgba(206,10,10,.8) !important;
 }
 
-/*Wolf*/
-#user-rollover.id-4412452 .meta{
-height: 146px !important;
+
+
+
+/*Akira Luna*/
+[data-cid^="4652147"].cm .msg .from .un, #user-lists .list .role-manager.id-4652147 .name {
+  color: rgba(244, 0, 188, 1) !important;
 }
-#user-rollover.id-4412452 .meta:before{
-    content: 'CSS';
-    top: 120px;
-    left: 109px;
+
+
+
+
+
+
+
+/* Developer
+-------------------------------------------------------------------------------*/
+
+
+/* Domas */
+#user-lists .list .user.id-6310947 .name:after,
+#user-rollover.id-6310947 .meta .username:after,
+#chat [data-cid^='6310947-'] .un:after {
+    content: "DEV";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(66,165,220,.5);
+    border-radius: 2px;
+    color: #f2a207;
+    font-size: 8px;
+}
+
+/*===================================== Programuotojas */
+#user-rollover.id-6310947 .meta .thumb {
+    border-color: #f2a207 !important;
+}
+
+
+
+
+
+
+
+
+#user-rollover.is-staff.id-31911880 .info .role span {
+    display: none;
+}
+
+#user-rollover.31911880 .level:after {
     position: absolute;
-	display: inline-block; 
-	padding: 0 3px;
-    color: #009A80;
-    background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
-    border-radius: 4px;
-    font-size: 10px;
+    content: url('http://i.imgur.com/xa4FR0w.png');
+    left: 170px;
+    top: 3px;
 }
-#user-rollover.id-4412452 .meta:after{
-    content: 'Theme devs';
-    color: #808691;
+
+#user-rollover.id-31911880 .info .badge-box:after {
+    content: "Chatbot";
     position: absolute;
-    top: 117px;
-    left: 134px;
+    top: 6px;
+    left: 228px;
+    color: #ff9679;
+    font-weight: bold;
+    font-size: 13px;
 }
-/*WiBla*/
-#user-rollover.id-4613422 .meta{
-height: 170px !important;
+
+#user-rollover.id-31911880 .info .role i {
+  display: none;
 }
-#user-rollover.id-4613422 .meta:before{
-    content: 'CSS';
-    top: 145px;
-    left: 109px;
-    position: absolute;
-	display: inline-block; 
-	padding: 0 3px;
-    color: #009A80;
-    background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
-    border-radius: 4px;
-    font-size: 10px;
+
+/* BOT */
+#chat-messages [data-cid^="31911880-"] .timestamp,
+#chat [data-cid^="31911880-"].emote .timestamp {
+    color: #ff9679 !important;
 }
-#user-rollover.id-4613422 .meta:after{
-    content: 'Theme devs';
-    color: #808691;
-    position: absolute;
-    top: 143px;
-    left: 134px;
+
+#user-lists .list .user.id-31911880 .name:after,
+#user-rollover.id-31911880 .meta .username:after,
+#chat [data-cid^='31911880-'] .un:after {
+    content: "BOT";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(172, 118, 255,.3);
+    border-radius: 3px;
+    color: #ff9679;
+    font-size: 8px;
 }
-/*Satskhi*/
-#user-rollover.id-4405644 .meta{
-    height: 190px !important;
+
+#chat [data-cid^="31911880-"].message .timestamp {
+    color: #ff9679 !important;
 }
-#user-rollover.id-4405644:before{
-    content: 'CSS';
-    top: 170px;
-    left: 109px;
-    position: absolute;
-	display: inline-block; 
-	padding: 0 3px;
-    color: #009A80;
-    background: linear-gradient(rgba(0, 154, 141, 0.2), rgba(0, 102, 102, 0.2));
-    border-radius: 4px;
-    font-size: 10px;
+
+#chat [data-cid^="31911880-"] .icon,
+#chat .id-31911880 .icon {
+    display: none !important;
 }
-#user-rollover.id-4405644:after{
-    content: 'Theme devs';
-    color: #808691;
-    position: absolute;
-    top: 167px;
-    left: 134px;
+
+#user-rollover.id-31911880 .username,
+#user-lists .list .user.id-31911880 .name,
+#user-rollover.id-31911880 .username,
+#chat [data-cid^='31911880-'] .un {
+    color: #ff9679 !important;
 }
+
+#chat-messages [data-cid^="31911880-"] .text {
+    font-weight: bold;
+}
+
+#chat-messages [data-cid^="31911880-"] .msg {
+    font-weight: bold;
+}
+
+#chat [data-cid^='31911880-'] {
+  background: transparent;
+  box-shadow: inset 0 1.5px 0 rgba(157, 150, 121,.3), inset 0 -1.5px 0 rgba(157, 150, 121,.3);
+}
+
+#chat [data-cid^='31911880-'] .from {
+  background: linear-gradient(to right, rgba(157, 150, 121,.3), transparent);
+  padding: 3px 0 3px 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*============-Mr. Ruthless============* Badge
+
+
+ /* -Mr. Ruthless */
+#chat-messages .id-3896066 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/o47RXle.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-3896066 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/o47RXle.png)
+        center no-repeat!important;
+}
+
+
+
+
+/*============Domas============* Badge
+
+
+ /* Domas */
+#chat-messages .id-6310947 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/rc86p1s.gif');
+        background-size:        cover;
+}
+
+#user-rollover.id-6310947 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/rc86p1s.gif)
+        center no-repeat!important;
+}
+
+
+
+
+/*============silent============* Badge
+
+
+ /* silent */
+#chat-messages .id-17826818 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/vQZJxHY.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-17826818 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/vQZJxHY.png)
+        center no-repeat!important;
+}
+
+
+
+
+/*============-karolite_liudeselis============* Badge
+
+
+ /* -karolite_liudeselis */
+#chat-messages .id-6381024 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/xihfA3z.jpg');
+        background-size:        cover;
+}
+
+#user-rollover.id-6381024 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/xihfA3z.jpg)
+        center no-repeat!important;
+}
+
+
+
+
+/*============Rudeninė Pandutė============* Badge
+
+
+ /* Rudeninė Pandutė */
+#chat-messages .id-4133404 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/7l0Drsx.gif');
+        background-size:        cover;
+}
+
+#user-rollover.id-4133404 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/7l0Drsx.gif)
+        center no-repeat!important;
+}
+
+
+
+
+/*============-Tomyoo============* Badge
+
+
+ /* -Tomyoo */
+#chat-messages .id-3635634 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/dbItMNQ.jpg');
+        background-size:        cover;
+}
+
+#user-rollover.id-3635634 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/dbItMNQ.jpg)
+        center no-repeat!important;
+}
+
+
+
+
+/*============-Antitė============* Badge
+
+
+ /* -Antitė */
+#chat-messages .id-28854785 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/BbmLjUX.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-28854785 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/BbmLjUX.png)
+        center no-repeat!important;
+}
+
+
+
+
+/*============-BlackWhiteTiger============* Badge
+
+
+ /* -BlackWhiteTiger */
+#chat-messages .id-3721161 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/UGSYxOe.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-3721161 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/UGSYxOe.png)
+        center no-repeat!important;
+}
+
+
+
+
+/*============Pandele-============* Badge
+
+
+ /* Pandele- */
+#chat-messages .id-4281529 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/tZ47sGw.jpg');
+        background-size:        cover;
+}
+
+#user-rollover.id-4281529 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/tZ47sGw.jpg)
+        center no-repeat!important;
+}
+
+	
+	
+	
+/*============Slibins============* Badge
+
+
+ /* Slibins */
+#chat-messages .id-4117028 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/qaZKFB5.gif');
+        background-size:        cover;
+}
+
+#user-rollover.id-4117028 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/qaZKFB5.gif)
+        center no-repeat!important;
+}
+
+
+
+
+/*============-Anti-Sociopatai============* Badge
+
+
+ /* -Anti-Sociopatai */
+#chat-messages .id-31911880 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/NEEv3XN.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-31911880 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/NEEv3XN.png)
+        center no-repeat!important;
+}
+
+
+
+
+/*============Ratas Ir Kvadratas============* Badge
+
+
+ /* Ratas Ir Kvadratas */
+#chat-messages .id-3554636 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/U49DsR7.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-3554636 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/U49DsR7.png)
+        center no-repeat!important;
+}
+
+
+
+
+/*============- Sheriff============* Badge
+
+
+ /* - Sheriff */
+#chat-messages .id-3611882 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/iNOAqrX.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-3611882 .info .badge-box .bdg {
+	background: url(https://i.imgur.com/iNOAqrX.png)
+        center no-repeat!important;
+}
+
+
+
+
+
+
+
+
+
+
+
