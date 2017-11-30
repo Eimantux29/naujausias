@@ -1,8 +1,8 @@
 {
    "room":"Gilze.lt",
    "author":"Energy",
-   "icon":"https://i.imgur.com/ctfUWRt.png?1",
-   "css":"https://raw.githubusercontent.com/Eimantux29/naujausias/master/TMi.css",
+   "icon":"null",
+   "css":"https://raw.githubusercontent.com/Eimantux29/naujausias/master/TM.css",
    "rules":{
       "allowAutorespond":true,
       "allowAutowoot":true,
