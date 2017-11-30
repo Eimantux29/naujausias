@@ -2,7 +2,7 @@
    "room":"Gilze.lt",
    "author":"tit",
    "icon":"null",
-   "css":"https://rawgit.com/TitanMusicDev/TMCss/master/TM.json",
+   "css":"https://rawgit.com/TitanMusicDev/TMCss/master/TM.css",
    "rules":{
       "allowAutorespond":true,
       "allowAutowoot":true,
