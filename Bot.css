@@ -1,43 +1,72 @@
-/*
- ┌————————————————————┐
- │       EDTBot       │
- └————————————————————┘
-*/
-#chat [data-cid^='13720951-'] {
-    border-left: rgba(40, 120, 60, 0.7) 3px solid !important;
-    background: linear-gradient(to right, rgba(19, 194, 181, 0.27)0,rgba(40, 120, 60, 0.3) 100%) !important;
-    box-shadow: none !important;
-}
-#chat [data-cid^='13720951-'] .badge-box .bdg {
-    border-radius: 5px !important;
-    background-image: url("https://rawgit.com/Satskhi/EDTRCS/master/images/BotBadge.png") !important;
-    background-repeat: round !important;
-    background-size: 30px !important;
+#user-rollover.is-staff.id-20168147 .info .role span {
+    display: none;
 }
 
-#user-rollover.id-13720951 .badge-box .bdg {
-    border-radius: 5px !important;
-    background-image: url("https://rawgit.com/Satskhi/EDTRCS/master/images/BotBadge.png") !important;
-    background-repeat: round !important;
-    background-size: 30px !important;
+#user-rollover.id-20168147 .level:after {
+    position: absolute;
+    content: url('http://i.imgur.com/xa4FR0w.png');
+    left: 170px;
+    top: 3px;
 }
-#chat [data-cid^='13720951-'] .un,
-#chat [data-cid^='13720951-'] .timestamp {
-    color: #5A6 !important;
-}
-#user-lists .list .user.id-13720951 .name:after,
-#chat [data-cid^='13720951-'] .un:after,
-#user-rollover.id-13720951 .username:after {
-    content: 'BOT';
-    display: inline-block;
-    margin: 0 0 0 5px; padding: 0 3px;
 
-    color: #095;
-    background: linear-gradient(rgba(10,10,10,.5), rgba(0,0,0,.5));
-    border-radius: 4px;
+#user-rollover.id-20168147 .info .badge-box:after {
+    content: "TMBot";
+    position: absolute;
+    top: 6px;
+    left: 228px;
+    color: #ac76ff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#user-rollover.id-20168147 .info .role i {
+    display: none;
+}
+
+/* BOT */
+
+#chat-messages [data-cid^="20168147-"] .timestamp, #chat [data-cid^="20168147-"].emote .timestamp {
+    color: #ac76ff ;
+}
+
+#user-lists .list .user.id-20168147 .name:after, #user-rollover.id-20168147 .meta .username:after, #chat [data-cid^='20168147-'] .un:after {
+    content: "BOT";
+    margin-left: 5px;
+    background: rgba(0,0,0,.3);
+    padding: 0px 5px;
+    border: 1px solid rgba(172, 118, 255,.3);
+    border-radius: 5px;
+    color: #ac76ff;
     font-size: 10px;
 }
-#user-lists .list .user.id-13720951:hover .name:after,
-#chat [data-cid^='13720951-'] .un:hover:after {
-    background: linear-gradient(rgba(0, 153, 85, 0.2), rgba(0, 101, 56, 0.2));
+
+#chat [data-cid^="20168147-"].message .timestamp {
+    color: #ac76ff ;
+}
+
+#chat [data-cid^="20168147-"] .icon, #chat .id-19129619 .icon {
+    display: none ;
+}
+
+#user-rollover.id-20168147 .username, #user-lists .list .user.id-20168147 .name, #user-rollover.id-20168147 .username, #chat [data-cid^='20168147-'] .un {
+    color: #ac76ff ;
+}
+
+#chat-messages [data-cid^="20168147-"] .text {
+    font-weight: bold;
+}
+
+#chat-messages [data-cid^="20168147-"] .msg {
+    font-weight: bold;
+}
+
+#chat [data-cid^='20168147-'] {
+    background: transparent;
+    box-shadow: inset 0 1.5px 0 rgba(172, 118, 255,.3), inset 0 -1.5px 0 rgba(172, 118, 255,.3);
+}
+
+#chat [data-cid^='20168147-'] .from {
+    background: linear-gradient(to right, rgba(172, 118, 255,.3), transparent);
+    padding: 3px 0 3px 10px;
+    border-radius: 10px 0 0 10px;
 }
