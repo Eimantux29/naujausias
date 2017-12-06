@@ -1,0 +1,243 @@
+/* Remove CSS Link */
+
+#room-settings .general-settings .description .value a:last-of-type {
+	display:none !important;
+}
+
+ /* Likuxas */
+#chat-messages .id-4049810 .badge-box i.bdg
+{
+        background-image:       url('https://nbot.lt/mta-images/admin.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-4049810 .info .badge-box .bdg {
+	background: url(https://nbot.lt/mta-images/admin.png)
+        center no-repeat!important;
+}
+
+
+/* Dedule */
+
+#chat-messages .id-3640043 .badge-box i.bdg
+{
+        background-image:       url('https://nbot.lt/mta-images/18.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-3640043 .info .badge-box .bdg {
+	background: url(https://nbot.lt/mta-images/18.png)
+        center no-repeat!important;
+}
+
+
+/* Panele Roze */
+
+#chat-messages .id-14153646 .badge-box i.bdg
+{
+        background-image:       url('https://nbot.lt/mt-images/badgesas.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-14153646 .info .badge-box .bdg {
+	background: url(https://nbot.lt/mt-images/badgesas.png)
+        center no-repeat!important;
+}
+
+
+/* KacyceAkva */
+
+#chat-messages .id-22204485 .badge-box i.bdg
+{
+        background-image:       url('https://nbot.lt/mt-images/katyte.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-22204485 .info .badge-box .bdg {
+	background: url(https://nbot.lt/mt-images/katyte.png)
+        center no-repeat!important;
+}
+
+
+/* Pazinciu Tarnyba */
+
+#chat-messages .id-4116474 .badge-box i.bdg
+{
+        background-image:       url('https://nbot.lt/mt-images/paz_tar.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-4116474 .info .badge-box .bdg {
+	background: url(https://nbot.lt/mt-images/paz_tar.png)
+        center no-repeat!important;
+}
+
+/* Dzeris */
+
+#chat-messages .id-13445492 .badge-box i.bdg
+{
+        background-image:       url('https://nbot.lt/mt-images/mergos.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-13445492 .info .badge-box .bdg {
+	background: url(https://nbot.lt/mt-images/mergos.png)
+        center no-repeat!important;
+}
+
+/* BlackWhiteTiger */
+
+#chat-messages .id-3721161 .badge-box i.bdg
+{
+        background-image:       url('https://nbot.lt/mt-images/sas.png');
+        background-size:        cover;
+}
+
+/* Duok-Sausainyy */
+
+#chat-messages .id-4458073 .badge-box i.bdg
+{
+        background-image:       url('https://nbot.lt/mt-images/vilkas.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-4458073 .info .badge-box .bdg {
+	background: url(https://nbot.lt/mt-images/vilkas.png)
+        center no-repeat!important;
+}
+
+/* MariusIR */
+
+#chat-messages .id-13957639 .badge-box i.bdg
+{
+        background-image:       url('https://nbot.lt/mt-images/sirdute.png');
+        background-size:        cover;
+}
+
+#user-rollover.id-13957639 .info .badge-box .bdg {
+	background: url(https://nbot.lt/mt-images/sirdute.png)
+        center no-repeat!important;
+}
+
+
+/* -------------- Chat Ikonos --------- */
+
+/* Kvanka */
+
+[data-cid^="4771436-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('https://nbot.lt/mta-images/banana.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
+
+/* Voveriuke */
+
+[data-cid^="3627171-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('https://nbot.lt/mta-images/sirdute.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
+
+/* MisterisR */
+
+[data-cid^="5033973-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('https://nbot.lt/mta-images/goldsub.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
+
+/* PiktasDede */
+
+[data-cid^="16079391-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('https://nbot.lt/mta-images/radijacija.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
+
+/* Dedule */
+
+[data-cid^="3640043-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('https://nbot.lt/mta-images/lt-flag.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
+
+/* Karo */
+
+[data-cid^="6151567-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('https://nbot.lt/mta-images/sun.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
+
+/* Erka */
+
+[data-cid^="5246980-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('https://nbot.lt/mta-images/debesis.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
+
+/* Martynas */
+
+[data-cid^="4099955-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('https://nbot.lt/mta-images/bioh.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
+
+/* Edgaras */
+
+[data-cid^="3419951-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('https://nbot.lt/mt-images/zaibas.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
+
+/* Yutaka */
+
+[data-cid^="14858433-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left: 18px;
+    background-image: url('https://nbot.lt/mt-images/gele.png');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+}
